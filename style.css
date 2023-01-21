@@ -339,17 +339,17 @@ nav {
 }
 .city-content > .city-body {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 125%;
 }
 .city-content > .city-price {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 125%;
 }
 .city-content > button {
   background-color: var(--dark-accent);
-  padding: 16px 48px;
+  padding: 12px 36px;
   border-radius: 8px;
   transition: 0.5s;
 }
@@ -359,7 +359,7 @@ nav {
 .city-content > button > a {
   text-decoration: none;
   color: var(--light-accent);
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
   line-height: 100%;
   transition: 0.2s;
@@ -633,21 +633,17 @@ footer > .footer .copyrights {
   .program-card-group {
     justify-content: center;
     align-items: center;
+    padding: 0 120px;
   }
-  .program-card-group > img {
-    width: 500px;
-  }
+
   .program-card-group > h3 {
     font-weight: 500;
-    width: 500px;
   }
   .program-card-group > .body {
     font-weight: 400;
-    width: 500px;
   }
   .program-card-group > .price {
     font-weight: 300;
-    width: 500px;
   }
 
   /*PROGRAMS SECTION*/
@@ -775,21 +771,17 @@ footer > .footer .copyrights {
   .program-card-group {
     justify-content: center;
     align-items: center;
+    padding: 0 80px;
   }
-  .program-card-group > img {
-    width: 500px;
-  }
+
   .program-card-group > h3 {
     font-weight: 500;
-    width: 500px;
   }
   .program-card-group > .body {
     font-weight: 400;
-    width: 500px;
   }
   .program-card-group > .price {
     font-weight: 300;
-    width: 500px;
   }
 
   /*PROGRAMS SECTION*/
@@ -856,7 +848,7 @@ footer > .footer .copyrights {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 576) {
+@media screen and (max-width: 576px) {
   /*NAV BAR*/
 
   .nav-content {
@@ -926,21 +918,17 @@ footer > .footer .copyrights {
   .program-card-group {
     justify-content: center;
     align-items: center;
+    padding: 0px 12px;
   }
-  .program-card-group > img {
-    width: 500px;
-  }
+
   .program-card-group > h3 {
     font-weight: 500;
-    width: 500px;
   }
   .program-card-group > .body {
     font-weight: 400;
-    width: 500px;
   }
   .program-card-group > .price {
     font-weight: 300;
-    width: 500px;
   }
 
   /*PROGRAMS SECTION*/
