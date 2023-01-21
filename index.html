@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="assets/Gulf-White-Icon.png" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Readex+Pro:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>PlayGulf</title>
+  </head>
+  <body dir="rtl">
+    <nav dir="ltr" class="navbar navbar-expand-lg">
+      <div class="container nav-content">
+        <a class="navbar-brand" href="index.html">
+          <img
+            id="navlogo"
+            class="nav-logo"
+            src="assets/playgulf-logo.png"
+            alt="PlayGulf"
+            width="200px"
+          />
+        </a>
+        <!--toggler-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--navbar contents-->
+        <div
+          class="collapse navbar-collapse nav-links"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link underline-hover-effect"
+                aria-current="page"
+                href="#contact"
+                >تواصل معنا</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link underline-hover-effect"
+                aria-current="page"
+                href="#programs"
+                >خدماتنا</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link underline-hover-effect"
+                aria-current="page"
+                href="#about-us"
+                >عن الشركة</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >الصفحةالرئيسية</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section dir="rtl" class="hero-section row">
+      <div class="hero-img col-lg-5"></div>
+      <div class="hero-content col-lg-7 order-lg-first">
+        <h2 class="hero-header">خطط لإجازتك مع بلاي جولف!</h2>
+        <p class="hero-description">
+          مرحبًا بكم في بلاي جولف ، وكالة السفر الرائدة لسكان الخليج الذين
+          يتطلعون إلى استكشاف الأماكن الجميلة في الكويت والإمارات العربية
+          المتحدة وقطر. يقدم موقعنا مجموعة واسعة من برامج السفر لتناسب جميع
+          أنواع المسافرين ، من الجولات الفاخرة إلى الرحلات ذات الأسعار المعقولة.
+        </p>
+        <div class="hero-icons-row row">
+          <div class="hero-icon-group col">
+            <img src="assets/icons/health-icon.png" width="48px" alt="" />
+            <h3>إرشادات السلامة</h3>
+            <p>
+              نحن نتبع جميع إرشادات الصحة والسلامة بصرامة لضمان أن مكان العمل
+              لدينا آمن. نستثمر في أفضل معدات السلامة ونجري فحوصات منتظمة لضمان
+              سلامة الموظفين. نحن نقدم التدريب ومراقبة الموظفين للتأكد من أنهم
+              يتبعون بروتوكولات السلامة. نحن ملتزمون بالسلامة والصحة ، ونسعى
+              جاهدين لنكون رائدين في هذا المجال
+            </p>
+          </div>
+          <div class="hero-icon-group col">
+            <img src="assets/icons/plane-icon.png" width="48px" alt="" />
+            <h3>إرشادات أمان الطيران</h3>
+            <p>
+              نتأكد من أن جميع طائراتنا تخضع للتفتيش بانتظام وأن جميع الطيارين
+              مدربون ومعتمدون للطيران. نتعامل مع السلامة بجدية ونتخذ جميع
+              الاحتياطات اللازمة. نحن نقدم لركابنا تعليمات السلامة ونتبع جميع
+              لوائح السلامة. نحن ملتزمون بالسلامة ونتخذ جميع التدابير لضمان سفر
+              ركابنا بأمان وأمان.
+            </p>
+          </div>
+        </div>
+        <div class="hero-button">
+          <button class="hero-btn"><a href="#contact">تواصل معنا</a></button>
+        </div>
+      </div>
+    </section>
+    <section class="features-section row row-cols-2 row-cols-lg-4">
+      <div class="feature-icon-group col">
+        <img src="assets/icons/hospitality-icon.png" alt="" />
+        <h3>جودة الإقامة والضيافة</h3>
+        <p>
+          لدينا فريق متخصص من المهنيين الذين يضمنون لضيوفنا إقامة ممتعة ومريحة.
+          لدينا مجموعة واسعة من خيارات الإقامة ، من الأجنحة الفاخرة إلى المنازل
+          الريفية المريحة.
+        </p>
+      </div>
+      <div class="feature-icon-group col">
+        <img src="assets/icons/guide-icon.png" alt="" />
+        <h3>اكثر المرشدين السياحين خبرة</h3>
+        <p>
+          مرشدونا السياحيون المحترفون على دراية وخبرة عميقة في مجالهم. نقدم
+          لضيوفنا أفضل مرشد سياحي يمكنه أن يطلعهم على جميع مناطق الجذب المذهلة
+          ومشاركة القصص الشيقة والإجابة على جميع أسئلتهم. أدلةنا على دراية كبيرة
+          ولديهم فهم عميق لثقافة وتاريخ الأماكن.
+        </p>
+      </div>
+      <div class="feature-icon-group col">
+        <img src="assets/icons/discount-icon.png" alt="" />
+        <h3>أفضل خيارات الاسعار</h3>
+        <p>
+          في شركتنا ، نؤمن بتقديم أفضل خيارات الأسعار الممكنة لعملائنا. سواء
+          كانت أسعارنا التنافسية أو خيارات الدفع المريحة لدينا ، فإننا نعمل
+          دائمًا لمنح عملائنا أفضل قيمة ممكن.
+        </p>
+      </div>
+      <div class="feature-icon-group col">
+        <img src="assets/icons/technical-support-icon.png" alt="" />
+        <h3>خدمة دعم عملاء موثوقة</h3>
+        <p>
+          سيتم حل جميع مشاكلك من خلال خدمة الدعم متعدد اللغات على مدار الساعة
+          طوال أيام الأسبوع.
+        </p>
+      </div>
+    </section>
+    <section class="about-section" id="about-us">
+      <div class="about-card">
+        <div
+          class="about-img col-lg"
+          style="background: url(assets/who-we-are.png)"
+        ></div>
+        <div class="about-content col-lg">
+          <div class="about-header">
+            <h3>من نحن</h3>
+            <h4>أصبح السفر إلى الشرق الأوسط أسهل من أي وقت مضى!</h4>
+          </div>
+          <div class="about-body">
+            <p>
+              تلعب بلاي جولف دور وكيل سفر موثوق به ، وتوفر للمسافرين العرب
+              الطريقة المثلى لاستكشاف المناظر الطبيعية المتنوعة في الكويت وقطر
+              والطائرات بدون طيار. مع مجموعة واسعة من الخدمات والموظفين المدربين
+              تدريباً جيداً ، نحن هنا لنجعل رحلاتك لا تُنسى.
+            </p>
+            <p>
+              من خلال تقديم مجموعة كبيرة من الخبرات والأنشطة ، تقدم وكالة السفر
+              الخاصة بنا مسارات مخصصة تلبي احتياجات كل مسافر. من الرحلات إلى
+              الوجهات الأكثر شعبية في الشرق الأوسط إلى الرحلات البحرية الفاخرة
+              وجولات المغامرات ، لدينا ما يناسب الجميع.
+            </p>
+            <p>
+              يتوفر موظفونا المتمرسون على مدار الساعة طوال أيام الأسبوع للإجابة
+              على أي أسئلة ومساعدتك في التخطيط لرحلة مثالية. مع PlayGulf ، أصبح
+              السفر إلى الشرق الأوسط أسهل من أي وقت مضى!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="about-card">
+        <div
+          class="about-img col-lg"
+          style="background: url(assets/our-history.png)"
+        ></div>
+        <div class="about-content col-lg order-lg-first">
+          <div class="about-header">
+            <h3>تاريخنا</h3>
+            <h4>أرقي الأسماء في مجال وكالات السفر!</h4>
+          </div>
+          <div class="about-body">
+            <p>
+              بلاي جولف هي وكالة سفر تأسست في الكويت في عام 2010. تقدم الشركة
+              خدمات السفر الجوي من وإلى الكويت ، ورحلات الطائرات بدون طيار (UAS)
+              في قطر ، والرحلات إلى وجهات أخرى في الشرق الأوسط. بالإضافة إلى
+              عملياتها الخاصة ، تقدم بلاي جولف أيضًا خدمات السفر الجوي من خلال
+              الشركات التابعة لها ، مثل الخطوط الجوية الكويتية والاتحاد للطيران.
+              يوفر موقع الشركة على الويب معلومات حول حزم تذاكر السفر والعطلات ،
+              بالإضافة إلى نصائح حول كيفية التخطيط لرحلة.
+            </p>
+            <p>
+              تعد بلاي جولف لاعبًا جديدًا نسبيًا في صناعة السفر ، لكنها حققت
+              بالفعل اسمًا لنفسها بفضل خدمات السفر الجوي المبتكرة. تعد بلاي جولف
+              أول شركة تقدم رحلات الطائرات بدون طيار في قطر ، وتعتبر رحلاتها في
+              الكويت من أكثر الرحلات شعبية في البلاد. بالإضافة إلى السفر الجوي ،
+              تقدم بلاي جولف أيضًا باقات إجازات تشمل تذاكر الطيران والإقامة في
+              الفنادق. هذه الباقات مثالية للمسافرين الذين يرغبون في الجمع بين
+              الإجازة والسفر الجوي.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="about-card">
+        <div
+          class="about-img col-lg"
+          style="background: url(assets/our-mission.png)"
+        ></div>
+        <div class="about-content col-lg">
+          <div class="about-header">
+            <h3>رسالتنا</h3>
+            <h4>تحقيق رضا العميل هدفنا الأول</h4>
+          </div>
+          <p class="about-body">
+            بلاي جولف هي وكالة سفريات متخصصة في توفير إجازات بأسعار معقولة
+            وعالية الجودة لعملائها. تقدم الوكالة مجموعة متنوعة من أنواع الرحلات
+            المختلفة ، بما في ذلك الإجازات المناسبة للعائلة ، والملاذ الرومانسية
+            ، ورحلات المغامرات. لدى جولف أيضًا مجموعة واسعة من الوجهات المتاحة ،
+            بما في ذلك أوروبا ومنطقة البحر الكاريبي وآسيا. إن موظفي الوكالة
+            الودودين والمطلعين متواجدون دائمًا لمساعدتك في العثور على الرحلة
+            المثالية لاحتياجاتك.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="programs-section col" id="programs">
+      <h2>برامجنا</h2>
+      <div class="program-cards-row row">
+        <div class="program-card-group col-lg">
+          <img src="assets/safari-img.jpg" alt="" class="img-fluid" />
+          <h3>رحلات السفاري</h3>
+          <p class="body">
+            تعد الصحراء العربية موطنًا لبعض أفضل الحيوانات البرية في العالم ،
+            بما في ذلك الغزلان والأسد والجمال. في إحدى رحلات السفاري لدينا ،
+            ستتمكن من رؤية الكثبان الرملية الشهيرة لسيوة ومشاهدة بعض المناظر
+            الطبيعية الخلابة في مصر. تأكد من وضع الكثير من الكريم الواقي من
+            الشمس والماء ، ولا تنسَ الكاميرا!
+          </p>
+          <p class="price">65 دولار فقط</p>
+        </div>
+        <div class="program-card-group col-lg">
+          <img src="assets/boat-img.jpg" alt="" class="img-fluid" />
+          <h3>رحلات المراكب التقليدية في البحر العربي</h3>
+          <p class="body">
+            بحر العرب عبارة عن جسم مائي خلاب ذو مياه زرقاء صافية ، وساحل خصب ،
+            وبلدات وقرى مزدحمة. إنه مصدر إلهام لكثير من الشاعر والرسام ،
+            والمراكب التي تبحر فيه مبنية بهياكل خشبية وألواح شراعية. الرحلة على
+            متن قارب عربي تقليدي هي تجربة حقيقية للحياة العمانية ومثيرة.
+          </p>
+          <p class="price">50 دولار فقط</p>
+        </div>
+        <div class="program-card-group col-lg">
+          <img src="assets/souq-img.jpg" alt="" class="img-fluid" />
+          <h3>زيارة السوق العربي التقليدي</h3>
+          <p class="body">
+            مع شركتنا ، ستتمكن من الاستمتاع ببعض أكثر الرحلات إثارة إلى الأسواق
+            العربية التقليدية حولها. سواء كنت مهتمًا بشراء التوابل أو الهدايا
+            التذكارية أو مجرد الاستمتاع بالأجواء المحلية ، فإن هذه الأسواق تمثل
+            فرصة رائعة لتذوق الثقافة. بالإضافة إلى ذلك ، ستشاهد بعضًا من أروع
+            المعالم السياحية في المنطقة.
+          </p>
+          <p class="price">65 دولار فقط</p>
+        </div>
+      </div>
+    </section>
+    <section class="cities-section">
+      <h2>المزارات السياحية</h2>
+      <div class="city-card">
+        <div
+          class="city-img col-lg"
+          style="background: url(assets/doha-img.jpg)"
+        ></div>
+        <div class="city-content col-lg">
+          <h3>الدوحة</h3>
+          <p class="city-body">
+            تعد مدينة الضحى من أشهر الوجهات السياحية في إيران. تقع في الجزء
+            الأوسط من البلاد ولديها تراث ثقافي غني. تشتهر مدينة الضحى أيضًا
+            بجمالها الطبيعي ، حيث تقع بالقرب من الجبال والأنهار والغابات. يمكننا
+            زيارة مدينة الضحى للاستمتاع بالعديد من المعالم السياحية ، بما في ذلك
+            المواقع التاريخية والمتاحف ومناطق التسوق. بالإضافة إلى كل ذلك ، تعد
+            مدينة الضحى أيضًا مكانًا رائعًا للاسترخاء والاستمتاع بثقافة البلاد
+            وتقاليدها.
+          </p>
+          <p class="city-price">300 دولار فقط شامل السفر والإقامة</p>
+          <button><a href="#contact">احجز الآن</a></button>
+        </div>
+      </div>
+      <div class="city-card">
+        <div
+          class="city-img col-lg"
+          style="background: url(assets/dubai-img.jpg)"
+        ></div>
+        <div class="city-content col-lg">
+          <h3>دبي</h3>
+          <p class="city-body">
+            دبي مدينة تعج بالحياة دائمًا. لديها مجموعة متنوعة من الأشياء التي
+            يمكن رؤيتها والقيام بها ، وهي واحدة من أكثر الوجهات السياحية شعبية
+            في العالم. سواء كنت تبحث عن يوم استرخاء أو مغامرة ، فإن دبي لديها ما
+            يناسبك. إليك بعض أفضل الأماكن التي يمكنك زيارتها في دبي: دبي مول هو
+            واحد من أكبر مجمعات التسوق في العالم ، وهو مكان رائع للزيارة إذا كنت
+            تبحث عن فورة تسوق. هناك الكثير من المتاجر الراقية ، ويمكنك أن تجد كل
+            شيء من العلامات التجارية الفاخرة إلى المتاجر ذات الأسعار المنخفضة.
+            إذا كنت تبحث عن مزيد من النشاط البدني ، فتوجه إلى مرسى دبي. هناك
+            أميال من ممرات الواجهة البحرية ومسارات الدراجات ، ويمكنك العثور على
+            الكثير من الأماكن للاستمتاع بالمناظر الخلابة. إذا كنت أكثر ميلًا
+            للاسترخاء على الشاطئ ، فتوجه إلى جميرا بيتش ريزيدنس. لديها أكثر من
+            600 فدان من شاطئ البحر والعديد من الفنادق الفاخرة ، حتى تتمكن من
+            العثور على ما تبحث عنه بالضبط. إذا كنت مهتمًا بالتاريخ ، فتوجه إلى
+            متحف دبي. لديها مجموعة متنوعة من المعروضات التي تغطي علم الآثار
+            والتاريخ والفن.
+          </p>
+          <p class="city-price">400 دولار فقط شامل السفر والإقامة</p>
+          <button><a href="#contact">احجز الآن</a></button>
+        </div>
+      </div>
+      <div class="city-card">
+        <div
+          class="city-img col-lg"
+          style="background: url(assets/abu-dhabi-img.jpg)"
+        ></div>
+        <div class="city-content col-lg">
+          <h3>ابوظبي</h3>
+          <p class="city-body">
+            تعد مدينة أبوظبي من أجمل الأماكن التي يمكن زيارتها في الإمارات
+            العربية المتحدة. من الشواطئ الرملية البيضاء الفاتنة إلى مناطق التسوق
+            الصاخبة ، هناك ما يستمتع به الجميع في هذه المدينة النابضة بالحياة.
+            إليك عدد قليل من الأماكن التي يجب عليك بالتأكيد زيارتها أثناء تواجدك
+            في أبو ظبي. أولاً وقبل كل شيء ، تأكد من زيارة مسجد الشيخ زايد
+            الكبير. هذا المعلم الأيقوني يجب أن يراه أي زائر لأبو ظبي ، ومن السهل
+            معرفة السبب - فالمسجد مذهل للغاية. مكان رائع آخر للزيارة هو برج
+            خليفة - أطول مبنى في العالم. إنه بالتأكيد مشهد مذهل عن قرب ، ويمكنك
+            حتى التقاط بعض الصور الرائعة من أعلى البرج. إذا كنت من محبي التسوق
+            الفاخر ، فسوف تحب وكالة وسط المدينة - واحدة من أشهر مراكز التسوق في
+            أبوظبي. هناك الكثير من المتاجر الراقية هنا لاستكشافها ، ويمكنك حتى
+            العثور على بعض العناصر الفريدة حقًا. أخيرًا ، لا توجد طريقة لزيارة
+            أبوظبي وعدم زيارة حلبة مرسى ياس. تعد حلبة السباق هذه واحدة من أكثر
+            حلبات السباق شهرة في العالم ، ومن السهل معرفة السبب - إنها ببساطة
+            مذهلة. من المدرجات الكبيرة إلى ممر الحفرة ، كل شيء عن ياس مارينا
+            مثير للإعجاب.
+          </p>
+          <p class="city-price">350 دولار فقط شامل السفر والإقامة</p>
+          <button><a href="#contact">احجز الآن</a></button>
+        </div>
+      </div>
+      <div class="city-card">
+        <div
+          class="city-img col-lg"
+          style="background: url(assets/kuwait-img.jpg)"
+        ></div>
+        <div class="city-content col-lg">
+          <h3>الكويت</h3>
+          <p class="city-body">
+            مدينة الكويت مكان رائع للزيارة. لديها الكثير من الأماكن المثيرة
+            للاهتمام التي يمكن زيارتها ، مثل سوق واقف ، ومتحف الكويت الوطني ،
+            ومكتبة الكويت الوطنية. هناك أيضًا الكثير من المعالم السياحية في
+            المدينة ، مثل أبراج الكويت ومركز الشيخ جابر الأحمد الثقافي. إنه مكان
+            رائع للإقامة أيضًا ، مع الكثير من الفنادق والمنتجعات للاختيار من
+            بينها.
+          </p>
+          <p class="city-price">200 دولار فقط شامل السفر والإقامة</p>
+          <button><a href="#contact">احجز الآن</a></button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="contact-us" id="contact">
+        <h2>تواصل معنا!</h2>
+        <p>
+          للحجز والاسعلام, يمكنك الاتصال بالرقم +123456789 كما ويمكنك التواصل
+          معنا علي مواقع التواصل الاجتماعي فيسبوك وتويتر ولينكدان والانستجرام
+        </p>
+        <div class="social-media-links row">
+          <a target="_blank" href="https://www.facebook.com/"
+            ><img src="assets/icons/facebook.png" alt=""
+          /></a>
+          <a target="_blank" href="https://www.twitter.com/"
+            ><img src="assets/icons/twitter.png" alt=""
+          /></a>
+          <a target="_blank" href="https://www.linkedin.com/"
+            ><img src="assets/icons/linkedIn.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="footer">
+        <h2>من نحن</h2>
+        <p>
+          بلاي جولف ليست مجرد شركة نقل ؛ وهي أيضًا شركة سياحية. تقدم الشركة
+          جولات مخصصة مثالية للمسافرين المحليين والدوليين. على سبيل المثال ،
+          يمكن أن تشمل الجولات المخصصة للشركة إلى قطر زيارات لمواقع مثل متحف
+          اللؤلؤ ومتحف التراث القطري. هدف بلاي جولف هو تزويد المسافرين بأفضل
+          تجربة سفر جوي ممكنة. تتوفر خدمات السفر الجوي للشركة بأسعار معقولة ،
+          كما أن جولاتها مصممة لمنح السائحين تجربة فريدة لا تنسى. سواء كنت
+          مسافرًا للعمل أو الترفيه ، فإن بلاي جولف لديها شيء خاص لك.
+        </p>
+        <p class="copyrights">حقوق الطبع والنشر محفوظة لدي بلاي جولف @ 2023</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </body>
+</html>
